@@ -1,3 +1,67 @@
-baseURL: http://example.org/
+baseURL: "https://jubinmathew1995.github.io/"
 languageCode: en-us
-title: My New Hugo Site
+title: "My Blog"
+theme: "PaperMod"
+paginate: 3
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "My Blog"
+  description: "My Blog Site"
+  keywords: ["Blog", "Jubin"]
+  author: [Me]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light, auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  disableSpecial1stPost: true
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Heya... \U0001F44B"
+    Content: >
+      - **Experimentalist** | **Developer**
+      
+      - Hi, I’m Jubin.    
+
+  socialIcons:
+    - name: email
+      url: "mailto://jubinmathew1995@gmail.com"
+    - name: twitter
+      url: "https://twitter.com/jubingmathew"
+    - name: stackoverflow
+      url: "https://stackoverflow.com/users/7651558/jubin-mathew"
+    - name: github
+      url: "https://github.com/jubinmathew1995"
+    - name: gitlab
+      url: "https://gitlab.com/jubinmathew1995"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/jubin-mathew-6a7587128/"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+    responsiveImages: false # For responsive images
+
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 20
