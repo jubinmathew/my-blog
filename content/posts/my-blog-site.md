@@ -21,8 +21,8 @@ ShowPostNavLinks: true
 
 
 ### Installing Hugo 
-[Hugo](https://gohugo.io/) is a static site generator written in go. We can install hugo easily using any of the package manager available for the different platforms. Since I am using macOS the below commmand worked for me.
-We can get the detailed isntallation steps from the hugo [quickstart](https://gohugo.io/getting-started/quick-start/) guide.
+[Hugo](https://gohugo.io/) is a static site generator written in go. We can install hugo easily using any of the package manager available for the different platforms. Since I am using macOS the below command worked for me.
+We can get the detailed installation steps from the hugo [quick-start](https://gohugo.io/getting-started/quick-start/) guide.
 
 ```bash
 brew install hugo
@@ -79,7 +79,7 @@ draft: true
 
 
 ### Add a theme for the Hugo site
-We will be using the **[hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod.git)** theme for our blog site. The themes can be imported by adding the themes as submodules to the existing repository. Read more [quickstart](https://gohugo.io/getting-started/quick-start/).
+We will be using the **[hugo-PaperMod](https://github.com/adityatelange/hugo-PaperMod.git)** theme for our blog site. The themes can be imported by adding the themes as sub-modules to the existing repository. Read more [quick-start](https://gohugo.io/getting-started/quick-start/).
 ```git
 git submodule add https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod --depth=1
 ```
@@ -192,7 +192,7 @@ hugo
 Please refer the [hugo documentation](https://gohugo.io/commands/hugo/) for all the flags and options or refer the man pages for hugo.
 
 
-### Implementing the CI/CD pipeline for automatic build & depoloyment
+### Implementing the CI/CD pipeline for automatic build & deployment
 We will be using the `Github actions` to build and deploy the static site in `Github pages`.
 
 #### Generate Github tokens
@@ -246,4 +246,4 @@ Enable the github pages in the <PROJECT>/Settings/Pages.
 
 
 ### Conclusion
-We just need to update the markdown files for the new posts and push it. And the CI/CD pipeline will automatically build and deply the static site.
+We just need to update the markdown files for the new posts and push it. And the CI/CD pipeline will automatically build and deploy the static site.
