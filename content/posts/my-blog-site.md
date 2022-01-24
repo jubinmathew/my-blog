@@ -1,7 +1,7 @@
 ---
 title: "My Blog Site"
 date: 2022-01-21T21:32:14+05:30
-tags: ["Hugo", "Github", "Pipeline", "CI/CD"]
+tags: ["Hugo", "Github", "Pipeline", "CI/CD", "Github Actions", "Github Pages"]
 author: ["Me"]
 showToc: true
 TocOpen: false
