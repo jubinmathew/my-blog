@@ -1,14 +1,26 @@
 baseURL: "https://jubinmathew1995.github.io/"
 languageCode: en-us
-title: "My Blog"
+title: "Jubin Mathew"
 theme: "PaperMod"
 paginate: 3
 
 params:
+  fuseOpts:
+    isCaseSensitive: false
+    includeScore: true
+    includeMatches: true
+    minMatchCharLength: 0
+    shouldSort: true
+    findAllMatches: true
+    keys: ["title", "summary", "content"]
+    location: 1
+    threshold: 0.2
+    useExtendedSearch: true
+
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "My Blog"
-  description: "My Blog Site"
-  keywords: ["Blog", "Jubin"]
+  title: "Jubin Mathew"
+  description: "My Blog & Notes Site"
+  keywords: ["Blog", "Jubin", "Notes"]
   author: [Me]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light, auto
@@ -29,11 +41,21 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Heya... \U0001F44B"
+    Title: "Heya... \U0001F44B I'm Jubin"
     Content: >
-      - **Experimentalist** | **Developer**
+      - **Experimentalist** | **Engineer**
       
-      - Hi, I’m Jubin.    
+      -
+
+      - I'm a Software engineer with 5 years of experience in banking & financial services domain. My current work is focused on orchestrating cloud-based Big Data infrastructure, where my role involves automating platform deployment and developing and deploying applications on top of these platforms.
+
+      -
+
+      - My interests include programing, solving problems, pet projects and making stuff. I'm most experienced with Java and Python.
+      
+      -
+      
+      - In my free time I like to explore, experiment and mess with new tools & technologies to quench my curiosity. 
 
   socialIcons:
     - name: email
@@ -57,6 +79,14 @@ params:
 
 menu:
   main:
+    - identifier: Search
+      name: Search
+      url: /search/
+      weight: 10
+    - identifier: Notes
+      name: Notes
+      url: /notes/
+      weight: 20
     - identifier: Posts
       name: Posts
       url: /posts/
@@ -65,3 +95,9 @@ menu:
       name: Tags
       url: /tags/
       weight: 20
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
