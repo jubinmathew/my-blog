@@ -1,6 +1,6 @@
 ---
 title: "CLI: Handbook"
-date: 2022-01-21T21:32:14+05:30
+date: 2023-10-06T21:32:14+05:30
 tags: ["cli", "shell", "bash", ]
 author: ["Me"]
 showToc: true
