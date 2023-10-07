@@ -19,7 +19,7 @@ params:
 
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: "Jubin Mathew"
-  description: "My Blog & Notes Site"
+  description: "My Blog Site"
   keywords: ["Blog", "Jubin", "Notes"]
   author: [Me]
   DateFormat: "January 2, 2006"
@@ -85,7 +85,7 @@ menu:
       weight: 10
     - identifier: Notes
       name: Notes
-      url: /notes/
+      url: https://notes-jubinmathew1995.vercel.app/
       weight: 20
     - identifier: Posts
       name: Posts
