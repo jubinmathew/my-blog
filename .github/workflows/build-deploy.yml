@@ -27,7 +27,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           deploy_key: ${{ secrets.DEPLOY_KEY }}
-          external_repository: jubinmathew1995/jubinmathew1995.github.io
+          external_repository: jubinmathew/jubinmathew.github.io
           publish_dir: ./public
           user_name: jubinmathew1995
           user_email: jubinmathew1995@gmail.com
