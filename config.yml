@@ -2,7 +2,8 @@ baseURL: "https://jubinmathew1995.github.io/"
 languageCode: en-us
 title: "Jubin Mathew"
 theme: "PaperMod"
-paginate: 3
+pagination:
+  pageSize: 3
 
 params:
   fuseOpts:
