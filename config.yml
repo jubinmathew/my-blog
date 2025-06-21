@@ -1,4 +1,4 @@
-baseURL: "https://jubinmathew1995.github.io/"
+baseURL: "https://jubinmathew.github.io/"
 languageCode: en-us
 title: "Jubin Mathew"
 theme: "PaperMod"
@@ -66,7 +66,7 @@ params:
     - name: stackoverflow
       url: "https://stackoverflow.com/users/7651558/jubin-mathew"
     - name: github
-      url: "https://github.com/jubinmathew1995"
+      url: "https://github.com/jubinmathew"
     - name: gitlab
       url: "https://gitlab.com/jubinmathew1995"
     - name: linkedin
